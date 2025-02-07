@@ -141,8 +141,8 @@ export const projects = [
       "Chart.js",
     ],
     category: "web app",
-    github: "https://github.com/checodezz/data-visualization-dashboard",
-    webapp: "https://data-visualization-dashboard-psi.vercel.app",
+    github: "https://github.com/PoojaGujwar/Thrill_Frontend",
+    webapp: "https://taskapp-beryl.vercel.app/",
   },
   {
     id: 3,
