@@ -1,8 +1,10 @@
 import DataVizImage from "../images/dataVizimage.png"
 import EmailClientImage from "../images/emailCLient.png"
+import SimbaPix from '../images/simbaPix.png'
 import finchCart from "../images/finchCart.png"
 import thrillTeamsUp from "../images/thrillTeamsUp.png"
 import meetupHub from "../images/meetupHub.png"
+import ChatApp from "../images/ChatApp.png"
 
 export const Bio = {
   name: "Pooja Gujwar",
@@ -161,22 +163,34 @@ export const projects = [
     github: "https://github.com/PoojaGujwar/Meetup_Hub_Frontend",
     webapp: "https://meetup-hub-frontend.vercel.app/",
   },
-  // {
-  //   id: 4,
-  //   title: "Email Client",
-  //   // date: "Aug 2024 - Aug 2024",
-  //   description:
-  //     "This email list app features a user-friendly interface for viewing and managing emails, allowing users to mark emails as favorites, distinguish between read and unread emails, and filter by favorites, read, and unread status, all while displaying emails in a master-slave view with detailed email content loaded on selection.",
-  //   image: EmailClientImage,
-  //   tags: [
-  //     "React Js",
-  //     "Bootstrap",
-  //     "Rest Api"
-  //   ],
-  //   category: "web app",
-  //   github: "https://github.com/checodezz/email-client",
-  //   webapp: "https://email-client-roc8-moonshot.vercel.app/",
-  // }
+  {
+    id: 4,
+    title: "SimbaPix",
+    // date: "Aug 2024 - Aug 2024",
+    description:
+      "Simba Pix is a full-stack photo album application built with React, Node.js, Express, and Socket.io. It allows users to sign in with Google, create and share albums, upload images using Multer & Cloudinary, and experience a responsive Bootstrap UI with real-time updates.",
+    image: SimbaPix,
+    tags: [
+       "React", "Node.js", "MongoDB", "Cloudinary", "Multer"
+    ],
+    category: "web app",
+    github: "https://github.com/PoojaGujwar/simbaPix_UI",
+    webapp: "https://simba-pix-ui.vercel.app/",
+  },
+   {
+    id: 5,
+    title: "Chat-App",
+    // date: "Aug 2024 - Aug 2024",
+    description:
+      "Built a real-time chat app with user registration and direct messaging using React, Node.js, and Socket.IO .Implemented user authentication and real-time private chats using WebSockets.",
+    image: ChatApp,
+    tags: [
+       "React", "Node.js", "MongoDB","Express.js","Socket.io","Bootstrap"
+    ],
+    category: "web app",
+    github: "https://github.com/PoojaGujwar/Chat_App",
+    webapp: "https://chat-app-beta-blush-77.vercel.app/",
+  }
 ];
 
-export const TimeLineData = [{ year: 2023, text: "Started my journey" }];
+export const TimeLineData = [{ year: 2024, text: "Started my journey" }];
