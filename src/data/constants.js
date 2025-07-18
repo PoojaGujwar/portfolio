@@ -5,6 +5,7 @@ import finchCart from "../images/finchCart.png"
 import thrillTeamsUp from "../images/thrillTeamsUp.png"
 import meetupHub from "../images/meetupHub.png"
 import ChatApp from "../images/ChatApp.png"
+import LeadApp from "../images/Capture1.PNG"
 
 export const Bio = {
   name: "Pooja Gujwar",
@@ -190,6 +191,20 @@ export const projects = [
     category: "web app",
     github: "https://github.com/PoojaGujwar/Chat_App",
     webapp: "https://chat-app-beta-blush-77.vercel.app/",
+  },
+  {
+    id: 6,
+    title: "LeadMagnetix",
+    // date: "Aug 2024 - Aug 2024",
+    description:
+      "A full-stack lead management app where you can add, edit, and assign leads to agents. You can also filter leads by status and agents.Built with React for the frontend, Express/Node for the backend, MongoDB as the database, and Redux for state management.",
+    image: LeadApp,
+    tags: [
+       "React","Redux", "Node.js", "MongoDB","Express.js","Bootstrap"
+    ],
+    category: "web app",
+    github: "https://github.com/PoojaGujwar/leadMagnetix",
+    webapp: "https://lead-magnetix-ashy.vercel.app",
   }
 ];
 
