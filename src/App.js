@@ -10,6 +10,7 @@ import ProjectDetails from "./components/ProjectDetails";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import { darkTheme, lightTheme } from "./utils/Themes.js";
+import Contact from "./components/Contact/index.js";
 
 const Body = styled.div`
   background-color: ${({ theme }) => theme.bg};
@@ -43,7 +44,6 @@ function App() {
           <HeroSection />
           <Wrapper>
             <Skills />
-            {/* <Experience /> */}
           </Wrapper>
           <Projects openModal={openModal} setOpenModal={setOpenModal} />
           <Footer />

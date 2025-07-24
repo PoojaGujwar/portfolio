@@ -51,7 +51,7 @@ const SkillsContainer = styled.div`
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  margin-top: 30px;
+  margin: 30px 0;
   gap: 30px;
   justify-content: center;
 `;

@@ -52,6 +52,9 @@ const Navbar = () => {
           <GitHubButton href={Bio.github} target="_blank">
             Github Profile
           </GitHubButton>
+          <GitHubButton href={Bio.resume} target="_blank">
+            Resume
+          </GitHubButton>
         </ButtonContainer>
         {isOpen && (
           <MobileMenu isOpen={isOpen}>

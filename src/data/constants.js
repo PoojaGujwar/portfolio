@@ -15,7 +15,8 @@ export const Bio = {
   github: "https://github.com/PoojaGujwar",
   linkedin: "https://www.linkedin.com/in/poojagujwar/",
   resume:
-    "https://drive.google.com/file/d/1oHrx3AqdDcyGZFF4hVDCDJYnwp3sNvAw/view?usp=drive_link",
+    "https://drive.google.com/file/d/15iwqkVP7WPTKJRlz9EtxlpngshSkiRQd/view?usp=sharing",
+  email:"gujwarpooja@gmail.com"
 };
 
 export const experiences = [
@@ -208,4 +209,4 @@ export const projects = [
   }
 ];
 
-export const TimeLineData = [{ year: 2024, text: "Started my journey" }];
+export const TimeLineData = [{ year: 2025, text: "Started my journey" }];

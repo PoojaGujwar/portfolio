@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import TwitterIcon from "@mui/icons-material/Twitter";
+import EmailIcon from "@mui/icons-material/Email";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import { Bio } from "../../data/constants";
@@ -29,6 +30,11 @@ const Logo = styled.h1`
   font-size: 20px;
   color: ${({ theme }) => theme.primary};
 `;
+
+const Para = styled.p`
+ font-weight: 600;
+  font-size: 18px;
+`
 
 const Nav = styled.nav`
   width: 100%;
@@ -87,13 +93,15 @@ function Footer() {
   return (
     <FooterContainer>
       <FooterWrapper>
-        <Logo>Pooja Gujwar</Logo>
-        <Nav>
+        <Logo>Contact</Logo>
+        <Para>Email: gujwarpooja@gmail.com</Para>
+        {/* <Nav>
           <NavLink href="#about">About</NavLink>
           <NavLink href="#skills">Skills</NavLink>
-          {/* <NavLink href="#experience">Experience</NavLink> */}
+          // <NavLink href="#experience">Experience</NavLink> 
           <NavLink href="#projects">Projects</NavLink>
         </Nav>
+         */}
         <SocialMediaIcons>
           <SocialMediaIcon href={Bio.github} target="display">
             <GitHubIcon />
@@ -102,7 +110,7 @@ function Footer() {
             <LinkedInIcon />
           </SocialMediaIcon>
         </SocialMediaIcons>
-        <Copyright>&copy; No Copyrights. Feel free to replicate.</Copyright>
+        <Copyright>&copy; 2025. Pooja Gujwar.</Copyright>
       </FooterWrapper>
     </FooterContainer>
   );
