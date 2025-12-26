@@ -127,21 +127,17 @@ export const projects = [
   },
   {
     id: 2,
-    title: "ThrillTeamsUp",
+    title: "SimbaPix",
     // date: "Aug 2024 - Aug 2024",
     description:
-      "Built an interactive project, tasks and teams management dashboard using the MERN stack, enabling users to analyze large datasets through intuitive charts and advanced filtering options.",
-    image: thrillTeamsUp,
+      "Simba Pix is a full-stack photo album application built with React, Node.js, Express, and Socket.io. It allows users to sign in with Google, create and share albums, upload images using Multer & Cloudinary, and experience a responsive Bootstrap UI with real-time updates.",
+    image: SimbaPix,
     tags: [
-      "React Js",
-      "Express Js",
-      "MongoDB",
-      "Bootstrap",
-      "Chart.js",
+       "React", "Node.js", "MongoDB", "Cloudinary", "Multer"
     ],
     category: "web app",
-    github: "https://github.com/PoojaGujwar/Thrill_Frontend",
-    webapp: "https://taskapp-beryl.vercel.app/",
+    github: "https://github.com/PoojaGujwar/simbaPix_UI",
+    webapp: "https://simba-pix-ui.vercel.app/",
   },
   {
     id: 3,
@@ -162,19 +158,23 @@ export const projects = [
   },
   {
     id: 4,
-    title: "SimbaPix",
+    title: "ThrillTeamsUp",
     // date: "Aug 2024 - Aug 2024",
     description:
-      "Simba Pix is a full-stack photo album application built with React, Node.js, Express, and Socket.io. It allows users to sign in with Google, create and share albums, upload images using Multer & Cloudinary, and experience a responsive Bootstrap UI with real-time updates.",
-    image: SimbaPix,
+      "Built an interactive project, tasks and teams management dashboard using the MERN stack, enabling users to analyze large datasets through intuitive charts and advanced filtering options.",
+    image: thrillTeamsUp,
     tags: [
-       "React", "Node.js", "MongoDB", "Cloudinary", "Multer"
+      "React Js",
+      "Express Js",
+      "MongoDB",
+      "Bootstrap",
+      "Chart.js",
     ],
     category: "web app",
-    github: "https://github.com/PoojaGujwar/simbaPix_UI",
-    webapp: "https://simba-pix-ui.vercel.app/",
+    github: "https://github.com/PoojaGujwar/Thrill_Frontend",
+    webapp: "https://taskapp-beryl.vercel.app/",
   },
-    {
+   {
     id: 5,
     title: "FinchCart",
     // date: "Sep 2024 - Sep 2024",
