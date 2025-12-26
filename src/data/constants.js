@@ -1,5 +1,3 @@
-import DataVizImage from "../images/dataVizimage.png"
-import EmailClientImage from "../images/emailCLient.png"
 import SimbaPix from '../images/simbaImage.png'
 import finchCart from "../images/finchCart.png"
 import thrillTeamsUp from "../images/thrillTeamsUp.png"
