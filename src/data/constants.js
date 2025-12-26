@@ -113,23 +113,18 @@ export const skills = [
 export const projects = [
   {
     id: 1,
-    title: "FinchCart",
-    // date: "Sep 2024 - Sep 2024",
+    title: "Chat-App",
+    // date: "Aug 2024 - Aug 2024",
     description:
-      "Developed a fully functional E-Commerce platform enabling users to browse, search, filter, and purchase products with real-time cart updates.",
-    image: finchCart,
+      "Built a real-time chat app with user registration and direct messaging using React, Node.js, and Socket.IO .Implemented user authentication and real-time private chats using WebSockets.",
+    image: ChatApp,
     tags: [
-      "React Js",
-      "Node Js",
-      "Express Js",
-      "MongoDB",,
-      "CSS",
-      "Bootstrap"
+       "React", "Node.js", "MongoDB","Express.js","Socket.io","Bootstrap"
     ],
     category: "web app",
-    github: "https://github.com/PoojaGujwar/myShoppingSite-frontend",
-    webapp: "https://my-shopping-site-frontend.vercel.app/"
-     },
+    github: "https://github.com/PoojaGujwar/Chat_App",
+    webapp: "https://chat-app-beta-blush-77.vercel.app/",
+  },
   {
     id: 2,
     title: "ThrillTeamsUp",
@@ -179,20 +174,25 @@ export const projects = [
     github: "https://github.com/PoojaGujwar/simbaPix_UI",
     webapp: "https://simba-pix-ui.vercel.app/",
   },
-   {
+    {
     id: 5,
-    title: "Chat-App",
-    // date: "Aug 2024 - Aug 2024",
+    title: "FinchCart",
+    // date: "Sep 2024 - Sep 2024",
     description:
-      "Built a real-time chat app with user registration and direct messaging using React, Node.js, and Socket.IO .Implemented user authentication and real-time private chats using WebSockets.",
-    image: ChatApp,
+      "Developed a fully functional E-Commerce platform enabling users to browse, search, filter, and purchase products with real-time cart updates.",
+    image: finchCart,
     tags: [
-       "React", "Node.js", "MongoDB","Express.js","Socket.io","Bootstrap"
+      "React Js",
+      "Node Js",
+      "Express Js",
+      "MongoDB",,
+      "CSS",
+      "Bootstrap"
     ],
     category: "web app",
-    github: "https://github.com/PoojaGujwar/Chat_App",
-    webapp: "https://chat-app-beta-blush-77.vercel.app/",
-  },
+    github: "https://github.com/PoojaGujwar/myShoppingSite-frontend",
+    webapp: "https://my-shopping-site-frontend.vercel.app/"
+     },
   {
     id: 6,
     title: "LeadMagnetix",
