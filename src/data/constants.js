@@ -15,7 +15,7 @@ export const Bio = {
   github: "https://github.com/PoojaGujwar",
   linkedin: "https://www.linkedin.com/in/poojagujwar/",
   resume:
-    "https://drive.google.com/file/d/1uuN4WeXeuAMLbQopeWuBaZ57JzHrgjYR/view?usp=sharing",
+    "https://drive.google.com/file/d/1xE06pTqEz63jvbo7qY4jNgY72D6Vf4q5/view?usp=sharing",
   email:"gujwarpooja@gmail.com"
 };
 
